@@ -1,0 +1,345 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+	
+}
+
+.header{
+	
+	background-color: #FF9800;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+
+
+ .navbar ul{
+	list-style: none;
+	display: flex;
+	
+}
+
+ .navbar li{
+	 padding: 10px 20px;
+	 position: relative;
+	 transition-duration: 0.1s;
+ }
+
+.navbar li:hover{
+	transform: translateX(-2px);
+	
+	
+}
+.logo-bar .logo{
+	font-size: 40px;
+	padding: 20px 20px;
+	
+}
+
+.navbar a{
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+		
+}
+
+.dropdown{
+	
+	display: none;
+	
+}
+
+.navbar ul li:hover .dropdown{
+	
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	
+}
+
+.dropdown ul{
+	background: #FF9800;
+	display: block;
+	
+}
+
+.dropdown li{
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition-duration:0.1s; 
+}
+
+.dropdown li:hover{
+	border: 2px solid black;
+	
+	
+	
+}
+section{
+	display: flex;
+	height: 87.89vh;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.contenedor-creacion{
+
+	box-shadow: 0 0 25px #EC8700;
+	height: 75%;
+	width: 75%;
+	border-radius: 5px;
+	display: ;
+	
+	flex-direction: column;
+}
+
+.text-creacion{
+	display: flex;
+	background: #EC8700;
+	height: 10%;
+	
+	
+	
+	
+	
+	
+}
+
+.text-creacion label{
+	font-size: 20px;
+	width: 150px;
+	margin: 10px 5px 0px 4px;
+	padding: 0 0 0 15px;
+	font-weight: bolder;
+	
+}
+
+.text-cheques{
+	display: flex;
+	height: 50px;
+	
+	width: 90%;
+	margin: 20px 20px 0 20px;
+	border-radius: 3px;
+}
+
+.text-cheques label{
+	font-size: 20px;
+	width: 150px;
+	margin: 12px 5px 0px 4px;
+	padding: 0 0 0 15px;
+	font-weight: bolder;
+}
+
+.contenedor-cheques{
+	display: flex;
+	width: 50%;
+	
+	height: 100%;
+	flex-direction: column;
+	
+	
+}
+
+.sub-contenedor1No{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	
+	height: 50px;
+	width: 90%;
+	margin: 0px 20px 0 20px;
+	border-radius: 3px;
+	position: relative;
+}
+	
+.sub-contenedor1No input{
+	margin: 15px 0 0 5px;
+	width: 130px;
+	position: relative;
+	z-index: 1;
+}	
+
+.text-No{
+	position: absolute;
+	top: 20%;
+    right: 80px;
+
+	z-index: 2;
+	
+	
+}
+
+.sub-contenedor1No #label1{
+	margin-right:63px;
+	
+}
+
+.sub-contenedor2Paguese{
+	display: flex;
+	height: 50px;
+	margin: 10px 30px 10px 20px;
+	flex-wrap: wrap;
+	
+	
+}
+
+
+.sub-contenedor2Paguese input{
+	width: 100%;
+	
+
+
+}
+
+.sub-contenedor3Lasuma{
+	display: flex;
+	position: relative;
+	height: 45px;
+	margin: 2px 30px 10px 20px;
+	flex-wrap: wrap;
+	
+}
+.sub-contenedor3Lasuma label{
+	width: 100%;
+	
+	
+}
+.sub-contenedor3Lasuma #input1{
+	position: absolute;
+	width: 30%;
+	height: 50%;
+	bottom: 0;
+}
+
+.sub-contenedor3Lasuma #input2{
+	position: absolute;
+	width: 68%;
+	bottom: 0;
+	right: 0;
+	height: 50%;
+	
+	
+}
+
+.sub-contenedor4Detalle{
+	
+	display: flex;
+	position: relative;
+	height: 45px;
+	margin: 2px 30px 10px 20px;
+	flex-wrap: wrap;
+	
+}
+
+.sub-contenedor4Detalle input{
+		width: 100%;
+
+
+
+}
+
+.salvacion{
+	
+	display: flex;
+	height: 75%;
+}
+
+.contenedor-OG{
+	
+	display: flex;
+	width: 50%;
+	height: 100%;
+	flex-direction: column;
+	
+}
+
+.text-cheques{
+	display: flex;
+	height: 50px;
+	border-bottom: 3px solid #FF9800;
+	width: 90%;
+	margin: 20px 20px 0 20px;
+	border-radius: 3px;
+	
+	
+}
+
+.text-cheques label{
+	width: 100%;
+	
+	
+}
+
+.sub-contenedor2Monto{
+
+	display: flex;
+	position: relative;
+	height: 45px;
+	margin: 10px 30px 10px 20px;
+	
+	
+}
+
+.sub-contenedor2Monto input{
+	width: 100%;
+	
+	
+	
+}
+.sub-Objeto{
+	display: flex;
+	flex-wrap: wrap;
+	width: 68%;
+	margin-right: 10px;
+	
+}
+
+
+.sub-Monto{
+	display: flex;
+	flex-wrap: wrap;
+	width: 32%;
+	
+}
+
+.footer1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15%;
+		 gap: 20px;
+
+}
+
+.footer1 button{
+	 height: 45px;
+	 width: 100px;
+	 border: none;
+	 background: #FF9800;
+	 color: white;
+	 font-size: 17px;
+	 font-weight: bold;
+	 border-radius: 5px;
+	 cursor: pointer;
+	
+	
+}
+
+.footer1 button:hover{
+	background: #C97301;
+	
+	
+}
