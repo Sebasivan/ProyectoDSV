@@ -83,6 +83,7 @@ input{
 	font-weight: bold;
 	padding: 10px 20px;
 	transition-duration:0.1s; 
+	cursor: pointer;
 }
 
 .dropdown li:hover{
@@ -91,7 +92,10 @@ input{
 	
 	
 }
+
+/*esta es la seccion*/
 section{
+	
 	display: flex;
 	height: 87.89vh;
 	align-items: center;
@@ -99,14 +103,14 @@ section{
 	
 	
 }
-
+/*este es el form 1 creacion*/
 .contenedor-creacion{
 
 	box-shadow: 0 0 25px #EC8700;
 	height: 75%;
 	width: 75%;
 	border-radius: 5px;
-	display: ;
+	display: none;
 	
 	flex-direction: column;
 }
@@ -348,6 +352,178 @@ section{
 
 .footer1 button:hover{
 	background: #C97301;
+	
+	
+}
+
+/*este es el form 2 anulacion*/
+
+
+.contenedor-anulacion{
+	
+	height: 70%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 25px #EC8700;
+}
+
+.text-anulacion{
+	display: flex;
+	background: #EC8700;
+	height: 18%;
+	width: 100%;
+	align-items: center;
+		
+}
+
+.text-anulacion label{
+	font-size: 20px;
+	width: 40%;
+	margin: 10px 5px 0px 4px;
+	padding: 0 0 0 15px;
+	font-weight: bolder;
+	
+}
+
+
+.subcontenedor-anulacion{
+	display: flex;
+	height: 83%;
+	
+	flex-wrap: wrap;
+	
+}
+
+.subcontenedor-anulacion1{
+	display: flex;
+	width: 50%;
+	
+	flex-direction: column;
+	
+}
+
+
+.subcontenedor-anulacion2{
+	display: flex;
+	width: 50%;
+	
+	flex-direction: column;
+	
+}
+
+.subcontenedor-anulacion2 label{
+	width: 100%;
+	margin: 5px 10px 5px 10px;
+	
+}
+
+.subcontenedor-anulacion2 #input-anulacion2{
+	width: 90%;
+	height: 40%;
+	border-radius: 10px;
+	margin: 1px 10px 5px 10px;
+	
+}
+
+.subcontenedor-anulacion2 #input-anulacion1{
+	width: 20%;
+	height: 25px;
+	border-radius: 5px;
+	margin: 1px 10px 5px 10px;
+	
+}
+
+.subcontenedor-anulacion1text{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 10px 20px 0;
+	gap: 20px;
+	flex-wrap: wrap;
+	
+	gap:0;
+	
+	
+}
+
+
+.subcontenedor-anulacion1text input{
+	margin-right: 20px;
+	border-radius: 5px;
+	height: 25px;
+}
+
+.subcontenedor-anulacion1text button{
+	height: 30px;
+	width: 69px;
+	font-size: 13px;
+	border: none;
+	 background: #FF9800;
+	 color: white;
+	 border-radius: 5px;
+	 cursor: pointer;
+	 font-weight: bold;
+}
+.text-anulacion01{
+	display: flex;
+	margin-bottom: 0;
+	width: 100%;
+	justify-content: center;
+	
+	transform: translateX(1px);
+}
+
+
+
+.subcontenedor-anulacion1Fecha{
+	display: flex;
+	margin-top: 40px;
+	flex-direction: column;
+	
+	
+}
+
+.subcontenedor-anulacion1Fecha label{
+	width: 100%;
+	margin: 5px 10px 5px 10px;
+	
+	
+}
+
+.subcontenedor-anulacion1Fecha input{
+	width: 80%;
+	height: 25px;
+	border-radius: 5px;
+	margin: 1px 10px 5px 10px;
+	
+	
+}
+.subcontenedor-anulacion1Fecha #input-Fecha{
+	width: 25%;
+	height: 25px;
+	border-radius: 5px;
+	margin: 1px 10px 5px 10px;
+	
+	
+}
+
+
+.subcontenedor-anulacion1Fecha #input-Suma{
+	width: 30%;
+	height: 25px;
+	border-radius: 5px;
+	margin: 1px 10px 5px 10px;
+	
+	
+	
+	
+}
+
+
+.subcontenedor-anulacion1text{
+	
+	
 	
 	
 }
