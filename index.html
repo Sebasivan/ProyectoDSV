@@ -376,29 +376,23 @@
 		</main>
 		
 		<script>
-    let pantallaActualId = ''; // Variable para almacenar el ID de la pantalla actualmente mostrada
-
+    let pantallaActualId = ''; 
     function mostrarPantalla(event, id) {
-        // Oculta la pantalla actual si existe
+       
         if (pantallaActualId) {
             const pantallaActual = document.getElementById(pantallaActualId);
             pantallaActual.style.display = 'none';
-            
-            // Si la pantalla actual es 'screen0', oculta la imagen específicamente
             if (pantallaActualId === 'screen0') {
                 const imagenScreen0 = pantallaActual.querySelector('img');
                 imagenScreen0.style.display = 'flex';
             }
         }
 
-        // Muestra la pantalla con el ID proporcionado
         const pantallaMostrar = document.getElementById(id);
-        pantallaMostrar.style.display = 'flex'; // Cambiar a 'flex' para mostrar la pantalla
+        pantallaMostrar.style.display = 'flex'; 
 
-        // Actualiza la pantalla actual
         pantallaActualId = id;
 
-        // Evita el comportamiento predeterminado del enlace
         event.preventDefault();
     }
 	</script>
